@@ -13,18 +13,18 @@
     <!-- Place favicon.png in the root directory -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon" />
     <!-- Font Icons css -->
-    <link rel="stylesheet" href="{{ asset('css/font-icons.css') }}">
+    <link rel="stylesheet" href="/css/font-icons.css">
     <!-- plugins css -->
-    <link rel="stylesheet" href="{{ asset('css/plugins.css') }}">
+    <link rel="stylesheet" href="css/plugins.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
     
     <script src="{{ mix('/js/app.js') }}" defer></script>
-    <link rel="stylesheet" href="http://jeremyfagis.github.io/dropify/dist/css/dropify.min.css" />
+    <link rel="stylesheet" href="https://jeremyfagis.github.io/dropify/dist/css/dropify.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     @inertiaHead
 </head>
@@ -48,10 +48,10 @@
     <!-- preloader area end -->
 
     <!-- All JS Plugins -->
-    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="/js/plugins.js"></script>
     <!-- Main JS -->
-    <script src="{{ asset('js/main.js') }}"></script>
-    <script src="http://jeremyfagis.github.io/dropify/dist/js/dropify.min.js"></script>  
+    <script src="/js/main.js"></script>
+    <script src="https://jeremyfagis.github.io/dropify/dist/js/dropify.min.js"></script>  
 
     <script>
     $(document).ready(function(){
