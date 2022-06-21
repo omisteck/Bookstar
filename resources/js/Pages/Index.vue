@@ -448,7 +448,7 @@
                         <input
                           type="file"
                           class="dropify"
-                          data-allowed-file-extensions="jpeg jpg png"
+                          data-allowed-file-extensions="jpeg webp jpg png"
                           data-height="600"
                           data-width="600"
                           data-max-file-size="3M"
